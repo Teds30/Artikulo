@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:wght@400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+
+:root {
+    --primary-color: #b99c87;
+    --primary-bold-color: #2d0d08;
+    --secondary-light-color: #88857e;
+    --input-bg-color: #faf4f4;
+    --left-p-color: #8c7560;
+    --left-h1-color: #2d0d08;
+    --left-bg-color: #d3c1b4;
+    --btn-boxshadow-color: #b99c8735;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.container {
+    padding: 70px;
+}
+#welcome_svg {
+    height: 350px;
+}
+
+.logout-btn {
+    background-color: rgb(226, 73, 73);
+    border: 0;
+    padding: 8px 18px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+p {
+    font-family: 'Nunito Sans';
+    color: #1c1b1b;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+.primarybutton {
+    margin: auto;
+    margin-top: 24px;
+    width: 500px !important;
+    padding: 18px;
+
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+
+    border: 0 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 5px 0px #8c7560;
+
+    background-color: var(--primary-color);
+}
+
+.primarybutton:hover {
+    background-color: #c9af9c;
+    box-shadow: 0 5px 0px #8c7560;
+}

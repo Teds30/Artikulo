@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap');
+
+:root,
+/* brown theme */
+:root.brown{
+	--primary-color: #B99C87;
+	--primary-bold-color: #2D0D08;
+	--secondary-light-color: #88857E;
+	--input-bg-color: #FAF4F4;
+  --left-p-color: #8C7560;
+  --left-h1-color: #2D0D08;
+  --left-bg-color: #D3C1B4;
+	--btn-boxshadow-color: #B99C8735;
+}
+
+/* blue theme */
+:root.blue{ 
+	--primary-color: #4944cb;
+  --primary-color-dark: #211f58;
+	--primary-bold-color: #211f58;
+	--secondary-light-color: #9493b3;
+	--input-bg-color: #F5F5FE;
+  --left-p-color: #ADBFF2;
+  --left-h1-color: #fff;
+  --left-bg-color: #211f58;
+	--btn-boxshadow-color: #4944cb35;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+}
+p{
+	font-size: 0.8em;
+}
+body{
+	padding: 50px;
+}
+
+.card {
+  overflow: hidden;
+  
+	width: 80%;
+	height: 600px;
+
+
+	border-radius: 24px;
+	border: 1px solid #E0E0F1;
+	box-shadow: 0px 4px 12px rgba(65, 112, 242, 0.15);
+}
+
+.left {
+
+	height: 600px;
+  background-color: var(--left-bg-color);
+
+  padding: 50px;
+
+}
+
+#people_svg {
+  width: 300px;
+  height: 300px;
+}
+
+.left h1{
+  font-family: 'Bebas Neue';
+  color: var(--left-h1-color );
+}
+
+.left p{
+  color: var(--left-p-color );
+}
+
+.right {
+  padding: 50px;
+}
+
+.right h1 {
+  font-weight: 700;
+  color: var(--primary-bold-color);
+}
+
+.right p {
+  margin-top: 16px;
+  font-weight: 300;
+  color: var(--secondary-light-color);
+}
+
+.form-control{
+	
+	border: 0 !important;
+	border-radius: 12px !important;
+
+	background-color: var(--input-bg-color) !important;
+}
+
+label {
+  font-size: 1em;
+  color: var(--secondary-light-color);
+}
+
+.login-btn{
+  margin-top: 24px;
+	width: 500px !important;
+	padding: 18px;
+
+	border: 0 !important;
+	border-radius: 12px !important;
+
+	background-color: var(--primary-color);
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+}
+
+.login-btn:hover{
+  
+	color: #fff;
+	box-shadow: 0px 12px 40px var(--btn-boxshadow-color);
+}
+
+a {
+  color: var(--primary-color-dark);
+  font-size: 0.8em;
+}
+
+a:hover {
+  color: var(--secondary-light-color);
+}

@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500&display=swap");
+
+/* brown theme */
+:root,
+:root.brown {
+  --primary-color: #b99c87;
+  --primary-bold-color: #2d0d08;
+  --secondary-light-color: #88857e;
+  --input-bg-color: #faf4f4;
+  --btn-boxshadow-color: #b99c8735;
+}
+
+/* blue theme */
+:root.blue {
+  --primary-color: #4944cb;
+  --primary-bold-color: #211f58;
+  --secondary-light-color: #9493b3;
+  --input-bg-color: #f5f5fe;
+  --btn-boxshadow-color: #4944cb35;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+p {
+  font-size: 0.8em;
+}
+body {
+  padding: 50px;
+}
+
+.card {
+  width: 90%;
+
+  padding: 50px;
+
+  border-radius: 24px;
+  border: 1px solid #e0e0f1;
+  box-shadow: 0px 4px 12px rgba(65, 112, 242, 0.15);
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 2em;
+  color: var(--primary-bold-color);
+}
+
+.secondary-text {
+  color: var(--secondary-light-color);
+}
+label {
+  color: var(--primary-bold-color) !important;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+input {
+  border: 0 !important;
+  border-radius: 12px !important;
+
+  background-color: var(--input-bg-color) !important;
+}
+.form-control {
+  font-size: 0.8em;
+}
+select {
+  border: 0 !important;
+  border-radius: 12px !important;
+  font-size: 0.8em !important;
+
+  padding: 13px !important;
+
+  background-color: var(--input-bg-color) !important;
+}
+option {
+  background-color: var(--input-bg-color) !important;
+}
+#form_birthdate {
+  padding: 14px !important;
+}
+
+.signup-btn {
+  width: 350px !important;
+  padding: 10px;
+
+  border: 0 !important;
+  border-radius: 12px !important;
+
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+
+.signup-btn:hover {
+  color: #fff;
+  box-shadow: 0px 12px 40px var(--btn-boxshadow-color);
+}
+
+a {
+  font-weight: 500;
+  color: var(--primary-bold-color);
+}
+
+.has_error {
+  color: #842029 !important;
+}
+.has_error input::placeholder {
+	color: #842029 !important;
+  }
+.has_error input {
+  border: 1px solid #842029 !important;
+  background-color: #fbf0f1 !important;
+}
+
+.p_error {
+	display: block;
+	color: red !important;
+}
+
+.p_hide {
+	display: none !important;
+}
